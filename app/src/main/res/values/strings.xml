@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AppNews</string>
+    <string name="description">Descrição</string>
+    <string name="title">Titulo</string>
+    <string name="source">Fonte</string>
+    <string name="published_at">Publicado em:</string>
+    <string name="favorite">Favoritos</string>
+    <string name="search_menu">Pesquisar…</string>
+    <string name="search_query_hint">Pesquise noticias pelo mundo…</string>
+    <string name="article_saved_successful">Artigo salvo com sucesso!</string>
+    <string name="article_delete_successful">Artigo deletado com sucesso</string>
+    <string name="undo">desfazer</string>
+    <string name="title_activity_article">ArticleActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
