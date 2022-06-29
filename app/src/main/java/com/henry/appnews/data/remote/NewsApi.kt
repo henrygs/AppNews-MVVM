@@ -1,6 +1,6 @@
 package com.henry.appnews.network
 
-import com.henry.appnews.model.NewsResponse
+import com.henry.appnews.data.local.model.NewsResponse
 import com.henry.appnews.utils.Constants.Companion.API_KEY
 import retrofit2.Response
 import retrofit2.http.GET

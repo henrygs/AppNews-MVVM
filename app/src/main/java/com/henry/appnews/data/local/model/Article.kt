@@ -1,4 +1,4 @@
-package com.henry.appnews.model
+package com.henry.appnews.data.local.db
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

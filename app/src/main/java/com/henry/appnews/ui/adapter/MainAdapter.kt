@@ -1,16 +1,13 @@
 package com.henry.appnews.adapter
 
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.AsyncListDiffer
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.henry.appnews.R
 import com.henry.appnews.databinding.ItemNewsBinding
-import com.henry.appnews.model.Article
-import kotlinx.android.synthetic.main.item_news.view.*
+import com.henry.appnews.data.local.model.Article
 
 class MainAdapter : RecyclerView.Adapter<MainAdapter.ArticleViewHolder>() {
 

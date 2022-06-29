@@ -1,7 +1,7 @@
 package com.henry.appnews.model.db
 
 import androidx.room.*
-import com.henry.appnews.model.Article
+import com.henry.appnews.data.local.db.Article
 
 @Dao
 interface ArticleDao {

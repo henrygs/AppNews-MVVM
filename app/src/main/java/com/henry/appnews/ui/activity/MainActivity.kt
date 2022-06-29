@@ -2,7 +2,6 @@ package com.henry.appnews.ui
 
 import android.content.Intent
 import android.os.Bundle
-import android.os.PersistableBundle
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
@@ -13,8 +12,8 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.henry.appnews.R
 import com.henry.appnews.adapter.MainAdapter
 import com.henry.appnews.databinding.ActivityMainBinding
-import com.henry.appnews.model.Article
-import com.henry.appnews.model.data.NewsDataSource
+import com.henry.appnews.data.local.model.Article
+import com.henry.appnews.repository.NewsDataSource
 import com.henry.appnews.presenter.ViewHome
 import com.henry.appnews.presenter.news.NewsPresenter
 

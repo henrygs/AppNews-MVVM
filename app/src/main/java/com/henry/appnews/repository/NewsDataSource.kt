@@ -1,12 +1,13 @@
 package com.henry.appnews.model.data
 
 import android.content.Context
-import com.henry.appnews.model.Article
-import com.henry.appnews.model.db.ArticleDataBase
+import com.henry.appnews.data.local.model.Article
+import com.henry.appnews.data.local.db.ArticleDataBase
 import com.henry.appnews.network.RetrofitInstance
 import com.henry.appnews.presenter.favorite.FavoriteHome
 import com.henry.appnews.presenter.news.NewsHome
 import com.henry.appnews.presenter.search.SearchHome
+import com.henry.appnews.repository.NewsRepository
 import kotlinx.coroutines.*
 
 class NewsDataSource(context: Context) {
