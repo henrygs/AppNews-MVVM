@@ -1,7 +1,7 @@
 package com.henry.appnews.presenter.favorite
 
-import com.henry.appnews.model.Article
-import com.henry.appnews.model.data.NewsDataSource
+import com.henry.appnews.data.local.model.Article
+import com.henry.appnews.repository.NewsDataSource
 import com.henry.appnews.presenter.ViewHome
 
 class FavoritePresenter(

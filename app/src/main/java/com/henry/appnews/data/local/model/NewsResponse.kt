@@ -1,4 +1,4 @@
-package com.henry.appnews.data.local.db
+package com.henry.appnews.data.local.model
 
 data class NewsResponse(
     val articles: MutableList<Article>,

@@ -1,4 +1,5 @@
 package com.henry.appnews.utils.state
 
-class ArticlListEvent {
+sealed class ArticlListEvent {
+    object Fetch: ArticlListEvent()
 }

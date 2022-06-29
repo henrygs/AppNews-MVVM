@@ -1,19 +1,18 @@
-package com.henry.appnews.model.data
+package com.henry.appnews.repository
 
 import android.content.Context
 import com.henry.appnews.data.local.model.Article
 import com.henry.appnews.data.local.db.ArticleDataBase
-import com.henry.appnews.network.RetrofitInstance
+import com.henry.appnews.data.remote.RetrofitInstance
 import com.henry.appnews.presenter.favorite.FavoriteHome
 import com.henry.appnews.presenter.news.NewsHome
 import com.henry.appnews.presenter.search.SearchHome
-import com.henry.appnews.repository.NewsRepository
 import kotlinx.coroutines.*
 
 class NewsDataSource(context: Context) {
 
     private var db: ArticleDataBase = ArticleDataBase(context)
-    private var newsRepository: NewsRepository = NewsRepository(db)
+    private var newsRepository: NewsRepository = NewsRepository(RetrofitInstance.api, db)
 
     fun getBreakingNews(callback: NewsHome.Presenter){
         GlobalScope.launch(Dispatchers.Main) {
@@ -54,7 +53,7 @@ class NewsDataSource(context: Context) {
     fun getAllArticle(callback: FavoriteHome.Presenter){
         var allArticle: List<Article>
         CoroutineScope(Dispatchers.IO).launch {
-            allArticle = newsRepository.getAll()
+            allArticle = newsRepository.getAll().value!!
 
             withContext(Dispatchers.Main){
                 callback.onSuccess(allArticle)

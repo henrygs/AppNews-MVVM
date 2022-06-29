@@ -1,7 +1,7 @@
 package com.henry.appnews.presenter.news
 
-import com.henry.appnews.model.NewsResponse
-import com.henry.appnews.model.data.NewsDataSource
+import com.henry.appnews.data.local.model.NewsResponse
+import com.henry.appnews.repository.NewsDataSource
 import com.henry.appnews.presenter.ViewHome
 
 class NewsPresenter(

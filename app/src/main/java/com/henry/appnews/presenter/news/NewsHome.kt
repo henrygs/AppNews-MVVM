@@ -1,6 +1,6 @@
 package com.henry.appnews.presenter.news
 
-import com.henry.appnews.model.NewsResponse
+import com.henry.appnews.data.local.model.NewsResponse
 
 interface NewsHome {
 

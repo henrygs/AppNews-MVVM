@@ -1,4 +1,4 @@
-package com.henry.appnews.adapter
+package com.henry.appnews.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

@@ -10,11 +10,21 @@
         android:id="@+id/rvFavorite"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        tools:listitem="@layout/item_news"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:listitem="@layout/item_news" />
+
+    <TextView
+        android:id="@+id/tvEmptyList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nada por Aqui"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"/>
-
+        app:layout_constraintEnd_toEndOf="parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

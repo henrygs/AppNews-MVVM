@@ -1,7 +1,7 @@
-package com.henry.appnews.model.db
+package com.henry.appnews.data.local.db
 
 import androidx.room.TypeConverter
-import com.henry.appnews.data.local.db.Source
+import com.henry.appnews.data.local.model.Source
 
 
 class Converters {

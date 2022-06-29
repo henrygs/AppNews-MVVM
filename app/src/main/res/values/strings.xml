@@ -11,6 +11,7 @@
     <string name="article_delete_successful">Artigo deletado com sucesso</string>
     <string name="undo">desfazer</string>
     <string name="title_activity_article">ArticleActivity</string>
+
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
@@ -19,4 +20,11 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <!-- String Splash Fragment-->
+    <string name="welcome_splash_fragment">Bem vindo</string>
+    <string name="hello_henry_splash_fragment">ao\n Henry News</string>
+    <string name="read_news_splash_fragment">Leia as últimas notícias do brasil e do mundo</string>
+
+
 </resources>

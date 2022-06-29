@@ -1,4 +1,4 @@
-package com.henry.appnews.network
+package com.henry.appnews.data.remote
 
 import com.henry.appnews.data.local.model.NewsResponse
 import com.henry.appnews.utils.Constants.Companion.API_KEY

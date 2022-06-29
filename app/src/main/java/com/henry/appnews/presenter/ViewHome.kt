@@ -1,6 +1,6 @@
 package com.henry.appnews.presenter
 
-import com.henry.appnews.model.Article
+import com.henry.appnews.data.local.model.Article
 
 interface ViewHome {
 
